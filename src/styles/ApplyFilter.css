@@ -1,0 +1,12 @@
+.apply-filter {
+    font-size: 1vw;
+    width: 80%;
+    display: block;
+    height: 40px;
+    background-color: steelblue;
+    color: white;
+    border-radius: 2px;
+    border: 0;
+    margin: 25% auto 0 auto;
+    cursor: pointer;
+}

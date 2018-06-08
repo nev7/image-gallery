@@ -1,0 +1,10 @@
+.picker {
+    width: 90%;
+    height: 40px;
+    font-size: 1vw;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-color: steelblue;
+    cursor: pointer;
+}

@@ -1,0 +1,50 @@
+.App {
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h4 {
+  text-align: left;
+  margin: 15% 0 5% 5%;
+}
+
+.SideBar {
+  text-align: center;
+  width: 15%;
+  height: 100%;
+  background-color: white;
+}
+
+.SideBar .sidebar-header {
+  text-align: center;
+  font-size: 2vw;
+  background-color: aquamarine;
+  width: 100%;
+  height: 5%;
+}
+
+.Grid {
+  width: 60%;
+  height: 100%;
+  text-align: center;
+  background-color: rgb(71, 70, 70);
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+}
+
+.Grid::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,47 @@
+.container-thumbs {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+}
+
+.container-thumbs ::-webkit-scrollbar {
+    display: none;
+}
+
+.thumb-box {
+    width: 20%;
+    height: 20%;
+    margin: 1% 1%;
+    background-color: black;
+    display: inline-block;
+}
+
+.thumb-box:hover {
+    cursor: pointer;
+}
+
+.thumb-box .img-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.thumb-box .thumb-description {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    border-radius: 2px;
+    color: white;
+    font-size: 1vw;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 40px;
+}
+
+.thumb-box .thumb-img {
+    height: 100%;
+}
