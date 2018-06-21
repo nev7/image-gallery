@@ -49,23 +49,4 @@ describe('filter actions', () => {
       filter: 'hot/viral/day'
     })
   })
-
-  // it('receiveImages should create IMAGES_SUCCESS action', () => {
-  //   expect(actions.receiveImages('hot/viral/day', {data: [{id:1},{id:2}]}, Date.now())).toEqual({
-  //     type: 'IMAGES_SUCCESS',
-  //     filter: 'hot/viral/day',
-  //     images: [{id:1},{id:2}],
-  //     receivedAt: Date.now()
-  //   })
-  // })
-
-  // it('rejectedImages should create IMAGES_FAILURE action', () => {
-  //   expect(actions.rejectedImages('hot/viral/day', {status: '400'})).toEqual({
-  //     type: 'IMAGES_FAILURE',
-  //     filter: 'hot/viral/day',
-  //     error: '400',
-  //     images: [],
-  //     receivedAt: Date.now()
-  //   })
-  // })
 })
